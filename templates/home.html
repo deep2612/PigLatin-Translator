@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<title>PigLatin Translator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+
+<h1><b>Pig Latin Translator!!</b></h1>
+
+
+
+<form action="{% url 'translate' %}" >
+	<input type="text" name="myinput" /><br>
+	<input type="submit" value="Translate!"></input>
+</form>
+
+<br><br>
+
+<a href="{%  url 'about'  %}">  About Me  </a>
+
+</body>
+</html>
